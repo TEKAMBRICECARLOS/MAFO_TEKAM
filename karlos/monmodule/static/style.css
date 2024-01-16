@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+.body{
+    background-color: #d2e3e4;
+}
+
+.header{
+    /*background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./image/HN_machine_learning_ist.jpg);*/
+    background-color: rgb(26, 33, 105);
+    height: 11vh;
+    background-size: cover; 
+    background-position: bottom;
+    text-align: right;
+    
+
+}
+.tableau-style{
+    border-collapse: collapse;
+    min-width: 100px;
+    width: 150px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 1px solid midnightblue;
+  }
+  
+  thead tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+  }
+  
+  th,td{
+    padding: 10px 15px;
+  }
+  
+  tbody tr,td,th{
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+    
+  }
+  .graphe{
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.h1 {
+    color: #333;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+}
+
+/* Style du pied de page */
+.footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 21, 109);
+    color: white;
+    display: flex;
+    height: 20px;
+    width: 100%;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+    color: #fff;
+    font-size: 15;
+    padding: 15px;
+ }
+
+madiv{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+ 

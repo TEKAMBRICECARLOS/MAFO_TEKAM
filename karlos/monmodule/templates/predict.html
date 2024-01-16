@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>Résultat de la Prédiction</h1>
+    
+    {% if message %}
+        <p>{{ message }}</p>
+    {% else %}
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Mois</th>
+                    <th>Entrées Prédites</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in range(x|length) %}
+                    <tr>
+                        <td>{{ y[i] }}</td>
+                        <td>{{ x[i] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <img class='graphe' alt="Statistiques" src="data:image/png;base64,{{ img }}">
+    {% endif %}
+    
+    
+{% endblock %}

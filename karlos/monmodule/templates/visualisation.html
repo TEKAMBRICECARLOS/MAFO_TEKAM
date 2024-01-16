@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>Visualisation des Données</h1>
+  <p> Ce graphe présente les 10 secteurs les plus rentables de la période d'Aout 2023 à Aout 2024,
+    nous constatons que le secteur des autres accommodations est le plus rentable dans le tourisme en Afrique du Sud sur cette période.</p>  
+<img src = "{{url_for('static', filename='images/secteur_rentable.png')}}">
+
+{% endblock %}

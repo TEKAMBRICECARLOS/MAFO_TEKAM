@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block body %}
+    
+    <h1 class='h1'>Prédiction du tourisme en Afrique du Sud suivant la période d'Aout 2023 à Aout 2024</h1>
+    <form method="post" action="/predict1">
+        
+        <div  class='madiv'>
+        <label for="secteur">Commodités relatives aux secteurs touristiques :</label>
+        <select name="secteur" id="secteur">
+            {% for secteur in secteurs %}
+                <option value="{{ secteur }}">{{ secteur }}</option>
+            {% endfor %}
+        </select>
+        </div>
+        
+        <div>
+        <button type="submit" class='btn'>Afficher</button>
+        </div>
+    
+    </form>
+
+    
+   
+{% endblock %}
